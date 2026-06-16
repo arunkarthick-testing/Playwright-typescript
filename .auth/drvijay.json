@@ -1,0 +1,49 @@
+{
+  "cookies": [
+    {
+      "name": "AUTH_SESSION_ID_LEGACY",
+      "value": "ae0f316c-1dd8-4759-ae10-535f94bd0e61",
+      "domain": "172.17.1.112",
+      "path": "/auth/realms/ris-pacs/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "KEYCLOAK_IDENTITY_LEGACY",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzYjYxZTQzYy1hZDVhLTRlZGQtYTJhNC03N2EyMTE4ZGU1ZTAifQ.eyJleHAiOjE3Nzc5MTk1MDksImlhdCI6MTc3NzkwMTUwOSwianRpIjoiYmRhY2Q3NjktZmQyMC00OTU5LWE4ZWQtZDgxNGM5N2Y5NTJhIiwiaXNzIjoiaHR0cDovLzE3Mi4xNy4xLjExMjo4MDgwL2F1dGgvcmVhbG1zL3Jpcy1wYWNzIiwic3ViIjoiZmYwZjZhYTEtYzcyZC00Y2JlLWJjNmItNjQ3Mjg0ODkwOTcwIiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiJhZTBmMzE2Yy0xZGQ4LTQ3NTktYWUxMC01MzVmOTRiZDBlNjEiLCJzaWQiOiJhZTBmMzE2Yy0xZGQ4LTQ3NTktYWUxMC01MzVmOTRiZDBlNjEiLCJzdGF0ZV9jaGVja2VyIjoibG1jb2wwVFhITzRZTGM2QlFTbXdoWjhCTDlWR0pvRkNHalliWGFQaEJqQSJ9.YrJmkchyUL8QF3dtpl83iOwUC_PboJwa3GfrdmlxZ7U",
+      "domain": "172.17.1.112",
+      "path": "/auth/realms/ris-pacs/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "KEYCLOAK_SESSION_LEGACY",
+      "value": "ris-pacs/ff0f6aa1-c72d-4cbe-bc6b-647284890970/ae0f316c-1dd8-4759-ae10-535f94bd0e61",
+      "domain": "172.17.1.112",
+      "path": "/auth/realms/ris-pacs/",
+      "expires": 1777919509.220006,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://172.17.1.112:8080",
+      "localStorage": [
+        {
+          "name": "ang-token",
+          "value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJhNG1IbHN2b2VTWVhkUXNJUnVMSmpmRUlVR0RLdTZPOW1sdWxWT3h3c1lNIn0.eyJleHAiOjE3Nzc5MDE3NDksImlhdCI6MTc3NzkwMTUwOSwiYXV0aF90aW1lIjoxNzc3OTAxNTA5LCJqdGkiOiI2NjIyNzI2Yi1lYWVmLTRmMWUtOTc1ZS0xZjkyYzgwNDQzMWIiLCJpc3MiOiJodHRwOi8vMTcyLjE3LjEuMTEyOjgwODAvYXV0aC9yZWFsbXMvcmlzLXBhY3MiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiZmYwZjZhYTEtYzcyZC00Y2JlLWJjNmItNjQ3Mjg0ODkwOTcwIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYW5ndWxhci11aSIsIm5vbmNlIjoiMDAwNTMzNTgtOWQ1NS00MmY0LTgyNjktOGFlNTcxYmFiMDY0Iiwic2Vzc2lvbl9zdGF0ZSI6ImFlMGYzMTZjLTFkZDgtNDc1OS1hZTEwLTUzNWY5NGJkMGU2MSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtcmlzLXNlcnZpY2VzIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYW5ndWxhci11aSI6eyJyb2xlcyI6WyJSYWRpb2xvZ2lzdCIsIkhPRCJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZ3JvdXBzIHBob25lIHByb2ZpbGUgZW1haWwiLCJzaWQiOiJhZTBmMzE2Yy0xZGQ4LTQ3NTktYWUxMC01MzVmOTRiZDBlNjEiLCJxdWFsaWZpY2F0aW9uIjoiRE1SRCwgRE5CLiIsIlVzZXIgSUQiOiJ1c2VyLjAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZGlzcGxheU5hbWUiOiJEci4gVmlqYXkgU2FkYXNpdmFtIERNUkQsIEROQi4iLCJuYW1lIjoiVmlqYXkgRE1SRCwgRE5CLiIsImdyb3VwcyI6WyIvUmFkaW9sb2dpc3QiLCIvSE9EIl0sInByZWZlcnJlZF91c2VybmFtZSI6InVzZXIuMCIsImNuIjoiRHIuIFZpamF5IFNhZGFzaXZhbSIsImdpdmVuX25hbWUiOiJWaWpheSIsImVtYWlsIjoidmlqYXkuc0Bza3NoLmFjLmluIn0.crB0jdO0yBL4iIkZvfzcb2uWaqrAbKERc_jHmVHlghhcbmJ_xndip1fuYyltLA0IfV1wywyQNUL_N2pF0mJcTSSrf2sqxRbAworFphxal35XJ-We6tK3LAFUajxdlMlWgZN2uhnlxV-rGKgF5svmAMzkViLlZ11SduXj13bUzym8eXiHRjDM0coeGPburrhODCuwNWT0_mb6yA61M4_aEZJaVn56hFN2igMuLVTmZYz1Vey8RFDQLitpnVQgYFN8Hp6aR_lErUHlLSxDgF1g3Pema8nO5uRtpxYs36uu2dqzOTbz_IN68MjOBd-m9U7bJyK6Bqpbw_zOaAB3ArgFEw"
+        },
+        {
+          "name": "ang-refresh-token",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzYjYxZTQzYy1hZDVhLTRlZGQtYTJhNC03N2EyMTE4ZGU1ZTAifQ.eyJleHAiOjE3Nzc5MDMzMDksImlhdCI6MTc3NzkwMTUwOSwianRpIjoiZTZhNjc0ZWItZTcwNS00ZGQyLThiNDMtMDY0Y2YwZjk1MGQwIiwiaXNzIjoiaHR0cDovLzE3Mi4xNy4xLjExMjo4MDgwL2F1dGgvcmVhbG1zL3Jpcy1wYWNzIiwiYXVkIjoiaHR0cDovLzE3Mi4xNy4xLjExMjo4MDgwL2F1dGgvcmVhbG1zL3Jpcy1wYWNzIiwic3ViIjoiZmYwZjZhYTEtYzcyZC00Y2JlLWJjNmItNjQ3Mjg0ODkwOTcwIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImFuZ3VsYXItdWkiLCJub25jZSI6IjAwMDUzMzU4LTlkNTUtNDJmNC04MjY5LThhZTU3MWJhYjA2NCIsInNlc3Npb25fc3RhdGUiOiJhZTBmMzE2Yy0xZGQ4LTQ3NTktYWUxMC01MzVmOTRiZDBlNjEiLCJzY29wZSI6Im9wZW5pZCBncm91cHMgcGhvbmUgcHJvZmlsZSBlbWFpbCIsInNpZCI6ImFlMGYzMTZjLTFkZDgtNDc1OS1hZTEwLTUzNWY5NGJkMGU2MSJ9.1rdOVi9VbEQmdA5HFEWT2-NegG9ZdOASPvnob3yw4k0"
+        }
+      ]
+    }
+  ]
+}

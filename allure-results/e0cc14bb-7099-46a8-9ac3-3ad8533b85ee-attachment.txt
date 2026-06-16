@@ -1,0 +1,12 @@
+Login successful
+Before click title: RIS | Front Office
+After click title: RIS | Front Office
+Landed on Worklist Archive page successfully
+Selected date range:[object Promise] to [object Promise]
+Applied Last 30 Days filter
+Column index 7 is out of bounds. Total columns: 0
+Study is UNASSIGNED. Assigning study first...
+Error in checkStatusAndNavigate: locator.waitFor: Timeout 2000ms exceeded.
+Call log:
+  - waiting for locator('//tbody[1]/tr[1]/td[7]/span/span/img') to be visible
+

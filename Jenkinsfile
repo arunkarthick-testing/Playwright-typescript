@@ -24,6 +24,16 @@ pipeline {
             }
         }
 
+        stage('Clean Old Reports') {
+            steps {
+                sh '''
+                    rm -rf playwright-report
+                    rm -rf allure-results
+                    rm -rf allure-report
+                '''
+            }
+        }
+
         stage('Install Dependencies') {
             steps {
                 sh 'npm ci'
@@ -43,12 +53,11 @@ pipeline {
 
         stage('Run Playwright Tests') {
             steps {
-                sh 'npx playwright test --reporter=html,junit'
+                sh 'npx playwright test --reporter=html,allure-playwright'
             }
             post {
                 always {
-                    junit testResults: 'test-results/*.xml', allowEmptyResults: true
-
+                    // Publish Playwright HTML Report
                     publishHTML(target: [
                         allowMissing         : false,
                         alwaysLinkToLastBuild: true,
@@ -56,6 +65,13 @@ pipeline {
                         reportDir            : 'playwright-report',
                         reportFiles          : 'index.html',
                         reportName           : 'Playwright HTML Report'
+                    ])
+
+                    // Publish Allure Report
+                    allure([
+                        includeProperties: false,
+                        jdk: '',
+                        results: [[path: 'allure-results']]
                     ])
                 }
             }
