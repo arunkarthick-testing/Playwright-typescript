@@ -8,7 +8,7 @@ test('ValidateHODLogin',async({page})=>{
     const loginData: any = await pom.getLoginPage().loginAndVerifyRoles('user.0','user@0');
     console.log(await page.title());
     expect(loginData.actualRoles).toEqual(expect.arrayContaining(['radiologist','hod']));
-    await pom.getDashboardPage().ValidateLoginnedUser('Dr. Vijay SSadasivam DMRD, DNB.');
+    await pom.getDashboardPage().ValidateLoginnedUser('Dr. Vijay Sadasivam DMRD, DNB.');
     
 });
 
@@ -17,7 +17,7 @@ test('ValidateDutyRadiologistLogin',async({page})=>{
     const loginData: any = await pom.getLoginPage().loginAndVerifyRoles('user.14','user@14');
     console.log(await page.title());
     expect(loginData.actualRoles).toEqual(expect.arrayContaining(['radiologist','duty radiologist']));
-    await pom.getDashboardPage().ValidateLoginnedUser('Dr. R. SSandhiya, MDRD., DNB');
+    await pom.getDashboardPage().ValidateLoginnedUser('Dr. R. Sandhiya, MDRD., DNB');
 });
 
 test('ValidateJuniorRadiologistLogin',async({page})=>{

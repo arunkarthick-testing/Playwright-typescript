@@ -1,0 +1,23 @@
+Login successful
+Before click title: RIS | Front Office
+After click title: RIS | Front Office
+Landed on Worklist Archive page successfully
+Selected date range:[object Promise] to [object Promise]
+Applied Last 30 Days filter
+Applied status filter: UNASSIGNED
+Searched for patient with ID: 585521
+Search results are displayed
+Column index 8 is out of bounds. Total columns: 8
+Study status: . Proceeding to Reporting.
+STEP 1: Menu Clicked
+Error in checkStatusAndNavigate: Failed to navigate to Reporting screen: locator.click: Test timeout of 50000ms exceeded.
+Call log:
+  - waiting for locator('button:nth-child(2) > .d-ib')
+    - locator resolved to <a _ngcontent-hhv-c344="" class="d-ib mr-5 mb-5 color-textprimary cursor-p">…</a>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+
